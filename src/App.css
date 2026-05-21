@@ -1,0 +1,21 @@
+/* App-specific custom styles (additional to global utility styles in index.css) */
+.wizard-card {
+  max-width: 650px;
+  margin: 0 auto;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.preview-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
